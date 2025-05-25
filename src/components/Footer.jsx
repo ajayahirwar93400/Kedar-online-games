@@ -1,5 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom"; // ✅ Link imported
+
 const Footer = () => {
   return (
+    
     <footer className="bg-gradient-to-r from-purple-900 via-purple-800 to-orange-900 p-6 sm:p-8 md:p-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         <div className="bg-[#1a1a1a] p-6 sm:p-8 rounded-lg">
@@ -24,6 +28,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+      
 
       <div className="border-t border-gray-700 my-8"></div>
 
@@ -33,19 +38,34 @@ const Footer = () => {
             🎮 <span className="text-orange-500">Kedar Online Games</span>
           </h2>
           <p className="text-sm sm:text-base">Experience the best online gaming entertainment with Kedar. Play responsibly.</p>
-
           <p className="text-sm sm:text-base font-semibold text-black mt-4 bg-yellow-400 inline-block px-3 py-1 rounded">
             Relationship Manager: 9220530856
-            </p>
+          </p>
         </div>
 
         <div className="text-center md:text-left">
           <h3 className="text-white font-semibold mb-4">SUPPORT</h3>
           <ul className="space-y-2 text-sm sm:text-base">
-            <li><a href="/how-to-play" className="hover:text-orange-400">How to Play</a></li>
-            <li><a href="/faqs" className="hover:text-orange-400">FAQs</a></li>
-            <li><a href="/contact" className="hover:text-orange-400">Contact Us</a></li>
-            <li><a href="/terms" className="hover:text-orange-400">Terms & Conditions</a></li>
+            <li>
+              <a href="https://wa.me/918368015957?text=Give%20me%20my%20best%20Id" className="hover:text-orange-400">
+                How to Play
+              </a>
+            </li>
+            <li>
+              <Link to="/Faqs" className="hover:text-orange-400">
+                FAQs
+              </Link>
+            </li>
+            <li>
+              <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" className="hover:text-orange-400">
+                Contact Us
+              </a>
+            </li>
+            <li>
+              <Link to="/Terms" className="hover:text-orange-400">
+                Terms & Conditions
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -66,7 +86,6 @@ const Footer = () => {
         <p>© 2025 <span className="text-orange-400 font-semibold">Kedar Online Games</span>. All rights reserved.</p>
         <p>For entertainment purposes only. 18+ only. Play responsibly.</p>
         <p>Customer Care: <span className="text-orange-400 font-semibold">8766356331</span></p>
-        {/* <p>Relationship Manager: <span className="text-orange-400 font-semibold">9220530856</span></p> */}
       </div>
     </footer>
   );
