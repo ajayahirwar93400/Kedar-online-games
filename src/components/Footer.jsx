@@ -57,7 +57,7 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" className="hover:text-orange-400">
+              <a href="https://wa.me/918750644687?text=Give%20me%20my%20best%20Id" className="hover:text-orange-400">
                 Contact Us
               </a>
             </li>

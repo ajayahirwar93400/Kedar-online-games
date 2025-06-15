@@ -124,9 +124,9 @@ const Services = () => {
             You feel free contact us <span className="text-orange-500">Kedar Online Games</span>
           </h2>
           <div className="flex justify-center space-x-6 mt-6">
-            <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918750644687?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer">
               <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-full transition duration-300">
-                WhatsApp: 9220529962
+                WhatsApp: 8750644687
               </button>
             </a>
             <a href="https://wa.me/918368015957?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer">

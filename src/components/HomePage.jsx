@@ -25,17 +25,18 @@ const Home = () => {
     <div className="relative min-h-screen bg-gradient-to-r from-purple-900 via-purple-800 to-orange-900 text-white scroll-smooth overflow-hidden">
 
       {/* 🔥 Moving Background Watermark */}
-      <div
-        className="absolute left-1/2 transform -translate-x-1/2 text-7xl sm:text-9xl md:text-[200px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-orange-500 to-yellow-400 opacity-10 select-none z-0 whitespace-nowrap pointer-events-none transition-transform duration-300"
-        style={{ top: `${mouseY * 0.2}px` }}
-      >
-        Kedar Games
-      </div>
+     <div
+      className="absolute left-1/2 transform -translate-x-1/2 text-[12vw] sm:text-[10vw] md:text-[200px] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-orange-500 to-yellow-400 opacity-10 select-none z-0 whitespace-nowrap pointer-events-none transition-transform duration-300"
+      style={{ top: `${mouseY * 0.2}px` }}
+        >
+      Kedar Games
+    </div>
+
 
       {/* Navbar */}
       <nav className="flex justify-between items-center px-4 py-4 bg-black sm:px-8 relative z-10">
         <div className="flex items-center space-x-2">
-          <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
+          <a href="https://wa.me/918750644687?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2">
             <img src={`${import.meta.env.BASE_URL}images/logo.png`} alt="Logo" className="w-10 h-10 object-cover rounded-full" />
             <span className="text-2xl font-bold text-orange-400">Kedar Online Games</span>
           </a>
@@ -45,7 +46,7 @@ const Home = () => {
           <button onClick={scrollToGames} className="hover:text-orange-300">Games</button>
           <button onClick={scrollToGames} className="hover:text-orange-300">Services</button>
           <a href="https://wa.me/918368015957?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300">How To Play</a>
-          <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-purple-500 px-4 py-1 rounded hover:bg-purple-600 transition">Register</a>
+          <a href="https://wa.me/918750644687?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-purple-500 px-4 py-1 rounded hover:bg-purple-600 transition">Register</a>
         </div>
 
         <div className="sm:hidden flex items-center" onClick={toggleMenu}>
@@ -79,7 +80,7 @@ const Home = () => {
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4">
           <a href="https://wa.me/918368015957?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-purple-500 px-6 py-3 rounded-full hover:bg-purple-600 transition">▶ Play Now</a>
-          <a href="https://wa.me/919220529962?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-green-500 px-6 py-3 rounded-full hover:bg-green-600 transition">📞 Contact on WhatsApp</a>
+          <a href="https://wa.me/918750644687?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-green-500 px-6 py-3 rounded-full hover:bg-green-600 transition">📞 Contact on WhatsApp</a>
           <a href="https://wa.me/918368015957?text=Give%20me%20my%20best%20Id" target="_blank" rel="noopener noreferrer" className="bg-blue-500 px-6 py-3 rounded-full hover:bg-blue-600 transition">📞 Call Us +91 8368015957</a>
         </div>
 
